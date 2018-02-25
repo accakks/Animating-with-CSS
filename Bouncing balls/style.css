@@ -1,0 +1,125 @@
+h1{
+  font-family: 'Rock Salt', cursive;
+}
+
+.dot1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+   height: 75px;
+  width: 75px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+   height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot4 {
+   height: 130px;
+  width: 130px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot5 {
+   height: 100px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot6 {
+   height: 350px;
+  width: 350px;
+  background-color: brown;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot7 {
+   height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot8 {
+   height: 220px;
+  width: 220px;
+  background-color: #af970e;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot9 {
+   height: 280px;
+  width: 280px;
+  background-color: #8d17e8;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot10 {
+   height: 220px;
+  width: 220px;
+  background-color: #3dffd5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot11 {
+   height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+@-webkit-keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    transform:         translateY(-30px)
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
+  }
+
+span{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+  span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+}
